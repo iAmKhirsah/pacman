@@ -1,0 +1,83 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h2 {
+  margin-left: 180px;
+  background-color: rgb(175, 135, 187);
+  width: 100px;
+  height: 25px;
+  padding: 30px;
+  font-family: serif;
+  font-size: 27px;
+  text-align: center;
+  border: 5px solid rgb(117, 70, 131);
+  /* margin-bottom: 0px; */
+}
+
+.modal {
+  background-color: lightslategray;
+  width: 408px;
+  height: 50px;
+  border: 5px solid lightsteelblue;
+  display: none;
+  font-family: serif;
+  font-size: larger;
+  text-align: center;
+  margin-left: 70px;
+}
+.modal span {
+  color: red;
+  font-size: 20px;
+}
+.modal .victory {
+  color: red;
+  font-size: 20px;
+}
+.restart {
+  display: none;
+  padding: 5px 40px;
+  margin: 0 5px 5px 0;
+  /* border-radius: 32px; */
+  border: 5px solid rgb(75, 43, 85);
+  box-sizing: border-box;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 22px;
+  background-color: rgb(117, 70, 131);
+  text-align: center;
+  margin-left: 135px;
+  transition: all 0.2s;
+}
+
+.restart .champ {
+  color: rgb(165, 179, 60);
+  font-size: 30px;
+  text-decoration: underline;
+}
+.restart:hover {
+  cursor: pointer;
+}
+.pacman {
+  width: 25px;
+  height: 25px;
+  transition: 1s;
+}
+
+.test {
+  color: rgb(117, 70, 131);
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
